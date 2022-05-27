@@ -1,0 +1,94 @@
+body {
+    font-family: "Arvo", serif;
+    font-size: 120%;
+    text-align: center;
+    color: seashell;
+    background-color: rgba(14, 6, 24, 1);
+    opacity: 0.9;
+    margin: 0;  
+    padding: 0; /*new*/
+}
+
+nav {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0 5%;
+    height: 10%;
+    background-color: rgba(14, 6, 24, 1);
+
+}
+
+nav .logo {
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: seashell;
+    font-weight: 200;
+}
+
+nav .links {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .links li {
+    list-style: none;
+    
+}
+
+nav .links a {
+    display: block;
+    padding: 1em;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    color: seashell;
+}
+
+nav .links a:hover {
+    cursor: pointer;
+    font-size: large;
+    color: blueviolet;
+}
+
+.maincontent {
+    position: relative;
+    margin-top: 4rem;
+}
+
+.mission {
+    background-image: url("./images/main-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 300px;
+    padding-top: 150px;
+    align-items: center;
+     
+}
+
+.missionstatement {
+    align-content: center;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(56, 40, 79, 1);
+    color: seashell;
+    width: 75%;
+    padding: 10px;
+    border: 3px solid black;
+    
+}
+
