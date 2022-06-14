@@ -1,3 +1,7 @@
+html {
+    scroll-padding-top: 10%;
+}
+
 body {
     font-family: "Arvo", serif;
     font-size: 120%;
@@ -6,7 +10,6 @@ body {
     background-color: rgba(14, 6, 24, 1);
     opacity: 0.9;
     margin: 0;  
-    padding: 0; /*new*/
 }
 
 nav {
@@ -65,7 +68,8 @@ nav .links a:hover {
 
 .maincontent {
     position: relative;
-    margin-top: 4rem;
+    margin-top: 5rem;
+    
 }
 
 .mission {
@@ -84,7 +88,7 @@ nav .links a:hover {
     align-content: center;
     margin: auto;
     text-align: center;
-    background-color: rgba(56, 40, 79, 1);
+    background-color: rgba(14, 6, 24, 1);
     color: seashell;
     width: 75%;
     padding: 10px;
@@ -92,3 +96,107 @@ nav .links a:hover {
     
 }
 
+.portfolio {
+    margin-top: 3rem;
+}
+
+.portfolio p {
+    margin: 2rem;
+}
+
+.project-container {
+    position: relative;
+    top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.project {
+    padding: 15px;
+   
+}
+
+.project img {
+    width: 250x;
+    height: 180px;
+    border: 3px solid cornsilk;
+}
+
+.project h4 {
+    margin: 0;
+    
+}
+
+.team {
+    background-image: url("./images/erebonia.jpg");
+    /*background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: 100%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center; 
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team h2 {
+    align-content: center;
+    text-align: center;
+    background-color: rgba(14, 6, 24, 1);
+    color: seashell;
+    width: 50%;
+    padding: 10px;
+    border: 3px solid black;
+    margin-bottom: 1rem;
+}
+
+#juna {
+    height: 175px;
+    width: 250px;
+}
+
+.team-members {
+    position: relative;
+    top: auto;
+    display: inline-flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto; 
+    padding: 0rem 2rem 2rem;
+
+}
+.member {
+    margin: 15px;
+}
+
+.member h4 {
+    background-color: rgba(14, 6, 24, 1);
+    border: 3px solid seashell;
+    padding: 0.5rem;
+    margin: 0;
+    top:0;
+} 
+
+.contact {
+    padding-top: 2rem;
+}
+
+.contact-info {
+    line-height: 0.5rem;
+}
+
+@media (max-width: 980px) {
+    body {
+        scroll-padding-top: 4rem;
+    }
+}
